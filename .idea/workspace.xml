@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3ca2dfa-7714-4856-8069-e3481daa0997" name="Default Changelist" comment="" />
+    <list default="true" id="b3ca2dfa-7714-4856-8069-e3481daa0997" name="Default Changelist" comment="logger and app event not registered example">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +17,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iGCkk23G9DoY6BOX71eg907UbR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
@@ -36,17 +45,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601524686740</updated>
-      <workItem from="1601524687951" duration="779000" />
+      <workItem from="1601524687951" duration="1732000" />
     </task>
+    <task id="LOCAL-00001" summary="logger and app event not registered example">
+      <created>1601525647037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601525647037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="logger and app event not registered example">
+      <created>1601525651970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601525651970</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="logger and app event not registered example" />
+    <option name="LAST_COMMIT_MESSAGE" value="logger and app event not registered example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="189" y="31" key="SettingsEditor" timestamp="1601524717677">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1601524717677" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601525682434">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1601525682434" />
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601525602579">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog/35.27.1331.741@35.27.1331.741" timestamp="1601525602579" />
   </component>
 </project>

@@ -1,7 +1,8 @@
 const EventEmitter = require('events');
 const emitter=new EventEmitter();
 const logger=require('./logger');
+logger.logger('hello world');
 emitter.on('messageLogged',()=>{
-    logger.logger('hello world');
+    console.log('hi');
 });
 console.log('event executed successfully');
