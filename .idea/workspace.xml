@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3ca2dfa-7714-4856-8069-e3481daa0997" name="Default Changelist" comment="logger and app event not registered example">
+    <list default="true" id="b3ca2dfa-7714-4856-8069-e3481daa0997" name="Default Changelist" comment="logger and app event not registered example-minor changes made on app.js module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/logger.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601524686740</updated>
-      <workItem from="1601524687951" duration="1732000" />
+      <workItem from="1601524687951" duration="4529000" />
     </task>
     <task id="LOCAL-00001" summary="logger and app event not registered example">
       <created>1601525647037</created>
@@ -61,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601525651970</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="logger and app event not registered example-minor changes made on app.js module">
+      <created>1601526463696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601526463696</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,17 +77,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="logger and app event not registered example" />
-    <option name="LAST_COMMIT_MESSAGE" value="logger and app event not registered example" />
+    <MESSAGE value="logger and app event not registered example-minor changes made on app.js module" />
+    <option name="LAST_COMMIT_MESSAGE" value="logger and app event not registered example-minor changes made on app.js module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="189" y="31" key="SettingsEditor" timestamp="1601524717677">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1601524717677" />
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601525682434">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601526471617">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1601525682434" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1601526471617" />
     <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601525602579">
       <screen x="35" y="27" width="1331" height="741" />
     </state>

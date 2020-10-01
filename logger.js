@@ -1,9 +1,18 @@
 const EventEmitter = require('events');
-const emitter=new EventEmitter();
-console.log('trying to initialize an event');
-function logger(message)
+class Logger extends EventEmitter
 {
-    console.log('logger message is: ',message);
-    emitter.emit('messageLogged');
+    log(message) {
+        console.log(message)
+        this.emit('messageLogged');
+    }
+    log1(message)
+    {
+        console.log(message);
+        this.emit('messageLogged1');
+    }
+
 }
-module.exports.logger=logger;
+
+module.exports=Logger;
+
+
