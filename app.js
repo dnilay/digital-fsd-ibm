@@ -1,13 +1,17 @@
 const EventEmitter = require('events');
-const Logger=require('./logger');
-const logger=new Logger();
-logger.log('calling log method from logger module');
-logger.log1('calling log1 method from logger module');
-logger.addListener('messageLogged',()=>{
-    console.log('Handled messageLogged Event');
+const MyString=require('./MyString');
+
+const str = new MyString();
+
+str.on('messageLogged',(str)=>{
+    console.log('str from on event -> '+ str);
+
+    console.log('Hi');
+
 });
-logger.addListener('messageLogged',()=>
-{
-   console.log('Handled messageLogged1 Event');
-});
-logger.log('=======END=======');
+
+str.reverseStr('hello world');
+
+
+
+console.log('event executed successfully');
