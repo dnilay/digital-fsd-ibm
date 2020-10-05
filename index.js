@@ -20,6 +20,7 @@ const server=http.createServer(function(req,res){
         res.end();
     }
     else {
+        res.setHeader('Content-Type', 'text/html');
         res.write('<h3>no page found</h3>');
         res.end();
     }
