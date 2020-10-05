@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a0a8555-3271-4104-8165-c7e8887d9622" name="Default Changelist" comment="added routing">
+    <list default="true" id="5a0a8555-3271-4104-8165-c7e8887d9622" name="Default Changelist" comment="using server only express">
+      <change afterPath="$PROJECT_DIR$/application.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601890213840</updated>
-      <workItem from="1601890214868" duration="3516000" />
+      <workItem from="1601890214868" duration="4993000" />
+      <workItem from="1601897247766" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="middleware-express-added">
       <created>1601891345238</created>
@@ -74,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601894458512</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="using server only express">
+      <created>1601894746394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601894746394</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,13 +94,14 @@
     <MESSAGE value="middleware-express-added" />
     <MESSAGE value="added gitignore" />
     <MESSAGE value="added routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added routing" />
+    <MESSAGE value="using server only express" />
+    <option name="LAST_COMMIT_MESSAGE" value="using server only express" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601894465628">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601894753761">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1601894465628" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1601894753761" />
     <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601891264021">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
@@ -102,7 +113,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
