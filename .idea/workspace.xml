@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a0ef77a-1f0c-4233-8fa9-e2299b998db6" name="Default Changelist" comment="added get method">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1a0ef77a-1f0c-4233-8fa9-e2299b998db6" name="Default Changelist" comment="added .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601956023192</updated>
-      <workItem from="1601956024285" duration="1468000" />
+      <workItem from="1601956024285" duration="4013000" />
     </task>
     <task id="LOCAL-00001" summary="added get method">
       <created>1601957474321</created>
@@ -53,7 +53,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601957474321</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added .gitignore">
+      <created>1601957507371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601957507371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,6 +68,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added get method" />
-    <option name="LAST_COMMIT_MESSAGE" value="added get method" />
+    <MESSAGE value="added .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601957538012">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1601957538012" />
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601957520781">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog/35.27.1331.741@35.27.1331.741" timestamp="1601957520781" />
   </component>
 </project>
