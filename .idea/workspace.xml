@@ -10,22 +10,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e2e089-7e54-47fd-8e6b-9703351df6b3" name="Default Changelist" comment="added router filter">
-      <change afterPath="$PROJECT_DIR$/public/a.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascript_basics.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
+    <list default="true" id="d4e2e089-7e54-47fd-8e6b-9703351df6b3" name="Default Changelist" comment="served static content and served html">
+      <change afterPath="$PROJECT_DIR$/views/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,16 +43,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/views" />
     </key>
@@ -64,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602039587445</updated>
       <workItem from="1602039588504" duration="751000" />
-      <workItem from="1602040368445" duration="3170000" />
+      <workItem from="1602040368445" duration="5180000" />
     </task>
     <task id="LOCAL-00001" summary="added router filter">
       <created>1602042411151</created>
@@ -73,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602042411151</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="served static content and served html">
+      <created>1602044530630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602044530630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,9 +107,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added router filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="added router filter" />
+    <MESSAGE value="served static content and served html" />
+    <option name="LAST_COMMIT_MESSAGE" value="served static content and served html" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="138" y="27" width="1114" height="741" key="CommitChangelistDialog2" timestamp="1602044496730">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="138" y="27" width="1114" height="741" key="CommitChangelistDialog2/35.27.1331.741@35.27.1331.741" timestamp="1602044496730" />
     <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602039979484">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
@@ -119,10 +139,10 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1602040399449" />
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602042435070">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602044551272">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602042435070" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602044551272" />
     <state x="481" y="310" width="429" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602042395365">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
