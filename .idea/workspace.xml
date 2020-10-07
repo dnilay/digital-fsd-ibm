@@ -10,18 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e2e089-7e54-47fd-8e6b-9703351df6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/05-using-express-router.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+    <list default="true" id="d4e2e089-7e54-47fd-8e6b-9703351df6b3" name="Default Changelist" comment="added router filter">
+      <change afterPath="$PROJECT_DIR$/public/a.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascript_basics.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +44,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,8 +64,16 @@
       <option name="presentableId" value="Default" />
       <updated>1602039587445</updated>
       <workItem from="1602039588504" duration="751000" />
-      <workItem from="1602040368445" duration="956000" />
+      <workItem from="1602040368445" duration="3170000" />
     </task>
+    <task id="LOCAL-00001" summary="added router filter">
+      <created>1602042411151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602042411151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +89,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added router filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="added router filter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602039979484">
@@ -102,9 +119,17 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1602040399449" />
-    <state x="481" y="310" width="429" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602040197652">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602042435070">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="481" y="310" width="429" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/35.27.1331.741@35.27.1331.741" timestamp="1602040197652" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602042435070" />
+    <state x="481" y="310" width="429" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602042395365">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="481" y="310" width="429" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/35.27.1331.741@35.27.1331.741" timestamp="1602042395365" />
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602042385173">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog/35.27.1331.741@35.27.1331.741" timestamp="1602042385173" />
   </component>
 </project>
