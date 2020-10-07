@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4e2e089-7e54-47fd-8e6b-9703351df6b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/05-using-express-router.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1iX2P1ahxn3E3zjKueW7hrTm4Ot" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4e2e089-7e54-47fd-8e6b-9703351df6b3" name="Default Changelist" comment="" />
+      <created>1602039587445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602039587445</updated>
+      <workItem from="1602039588504" duration="751000" />
+      <workItem from="1602040368445" duration="956000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602039979484">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl/35.27.1331.741@35.27.1331.741" timestamp="1602039979484" />
+    <state width="1285" height="175" key="GridCell.Tab.0.bottom" timestamp="1602040351702">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state width="1285" height="175" key="GridCell.Tab.0.bottom/35.27.1331.741@35.27.1331.741" timestamp="1602040351702" />
+    <state width="1285" height="175" key="GridCell.Tab.0.center" timestamp="1602040351702">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state width="1285" height="175" key="GridCell.Tab.0.center/35.27.1331.741@35.27.1331.741" timestamp="1602040351702" />
+    <state width="1285" height="175" key="GridCell.Tab.0.left" timestamp="1602040351701">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state width="1285" height="175" key="GridCell.Tab.0.left/35.27.1331.741@35.27.1331.741" timestamp="1602040351701" />
+    <state width="1285" height="175" key="GridCell.Tab.0.right" timestamp="1602040351702">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state width="1285" height="175" key="GridCell.Tab.0.right/35.27.1331.741@35.27.1331.741" timestamp="1602040351702" />
+    <state x="189" y="31" key="SettingsEditor" timestamp="1602040399449">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1602040399449" />
+    <state x="481" y="310" width="429" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602040197652">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="481" y="310" width="429" height="172" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/35.27.1331.741@35.27.1331.741" timestamp="1602040197652" />
+  </component>
+</project>
