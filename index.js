@@ -1,21 +1,22 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/play-ground',{ useNewUrlParser: true , useUnifiedTopology: true} )
-.then(function(){
-    console.log('Connected to Mongo');
-})
-.catch(reason => {
-    console.log('Connection is not Unsuccessful..!',reason.message);
-})
+mongoose.connect('mongodb://localhost:27017/play-ground', {useNewUrlParser: true, useUnifiedTopology: true})
+    .then(function () {
+        console.log('Connected to Mongo');
+    })
+    .catch(reason => {
+        console.log('Connection is not Unsuccessful..!', reason.message);
+    })
 
-const studentSchema=new mongoose.Schema(
+const studentSchema = new mongoose.Schema(
     {
-        firstName:String,
-        lastName:String,
-        email:String,
-        doj:{type: Date,default:Date.now()}
+        firstName: String,
+        lastName: String,
+        email: String,
+        doj: {type: Date, default: Date.now()}
     });
 
-const Student=mongoose.model('Student',studentSchema);
+const Student = mongoose.model('Student', studentSchema);
+
 /*
 let student=new Student({
     firstName: 'Sachin',
@@ -38,10 +39,9 @@ createStudent().then(function (){
 });
 
 */
-async function getStudents()
-{
+async function getStudents() {
     let result = await Student.find();
-    console.log('displaying students',result);
+    console.log('displaying students', result);
     console.log('called getStudents()');
 }
 
@@ -61,21 +61,35 @@ run().then(function () {
 
 });*/
 
-async function findStudentByID(id)
-{
+async function findStudentByID(id) {
     await Student.findById(id).then(function (result) {
-        console.log('Student found:',result);
+        console.log('Student found:', result);
+
 
     }).catch(error => {
-        console.log('Error finding student with ID: ',id);
+        console.log('Error finding student with ID: ', id);
     });
 }
 
-findStudentByID('5f7ea4a65cff563fe784c33d').then(()=>{
+/*findStudentByID('5f7ea4a65cff563fe784c33d').then(()=>{
     console.log('finished finding student')
 
 }).catch(reason => {
     console.log('Error with finding student')
+});*/
+
+
+async function findByFirstName(firstName) {
+    let result = await Student.find({firstName: firstName})
+        .select('firstName lastName')
+        console.log('Student found:', result);
+
+}
+
+findByFirstName('John').then(function () {
+
+}).catch(reason => {
+
 });
 
 
