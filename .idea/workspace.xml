@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0064c1b-104a-43ce-90be-bb32311e410e" name="Default Changelist" comment="added different sort mechanism">
-      <change afterPath="$PROJECT_DIR$/course-app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readdata.js" afterDir="false" />
+    <list default="true" id="e0064c1b-104a-43ce-90be-bb32311e410e" name="Default Changelist" comment="added reline module">
+      <change afterPath="$PROJECT_DIR$/course-app-2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <updated>1602130653464</updated>
       <workItem from="1602130654635" duration="9079000" />
       <workItem from="1602145651757" duration="2191000" />
-      <workItem from="1602149443447" duration="3395000" />
+      <workItem from="1602149443447" duration="6162000" />
     </task>
     <task id="LOCAL-00001" summary="added connection first time to mongodb local db">
       <created>1602131547513</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602141955594</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added reline module">
+      <created>1602153113481</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602153113481</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,17 +151,18 @@
     <MESSAGE value="added findByFirstName and select" />
     <MESSAGE value="added sort and select" />
     <MESSAGE value="added different sort mechanism" />
-    <option name="LAST_COMMIT_MESSAGE" value="added different sort mechanism" />
+    <MESSAGE value="added reline module" />
+    <option name="LAST_COMMIT_MESSAGE" value="added reline module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="189" y="31" key="SettingsEditor" timestamp="1602137437909">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1602137437909" />
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602141964590">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602153126328">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602141964590" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602153126328" />
     <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602131523138">
       <screen x="35" y="27" width="1331" height="741" />
     </state>

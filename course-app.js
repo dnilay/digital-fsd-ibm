@@ -55,12 +55,25 @@ async function readData() {
 
 }
 
+async function getCourses() {
+    let result=await Course.find({price: {$lte:15}})
+        .or([{name:'spring'}])
+    console.log(result);
+}
 
+
+
+getCourses().then(function (){
+    console.log('Success')
+}).catch(reason => {
+    console.log('Failure');
+});
+/*
 readData().then(function (){
     console.log('successfully done');
 }).catch(reason => {
     console.log('failed',reason.message);
-});
+});*/
 
 
 
