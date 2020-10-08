@@ -16,10 +16,12 @@ const studentSchema=new mongoose.Schema(
     });
 
 const Student=mongoose.model('Student',studentSchema);
+/*
 let student=new Student({
-    firstName: 'Marry',
-    lastName: 'Public',
-    email: 'marry@email.com'
+    firstName: 'Sachin',
+    lastName: 'Tendulkar',
+    email: 'sachin@email.com',
+    doj: new Date(2020,2,12)
 });
 async function createStudent()
 {
@@ -35,6 +37,29 @@ createStudent().then(function (){
     console.log('Error creating student:',error.message);
 });
 
+*/
+async function getStudents()
+{
+    let result = await Student.find();
+    console.log('displaying students',result);
+    console.log('called getStudents()');
+}
+
+async function run()
+{
+    getStudents().then(function(){
+        console.log('called run function');
+    }).catch(error => {
+        console.log(error.message);
+    })
+}
+run().then(function () {
+    console.log('finished running');
+
+}).catch(error => {
+    console.log(error.message);
+
+});
 
 
 
