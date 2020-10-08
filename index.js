@@ -86,7 +86,8 @@ async function findByFirstName(firstName) {
 
     let result = await Student.find()
         .select('firstName lastName')
-    .sort({firstName:-1});
+   // .sort('firstName');
+        .sort({firstName:1});
     console.log('Student found:', result);
 
 }
