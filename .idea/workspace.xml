@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e0bf8a2-9312-492e-a154-74f985ef7ca6" name="Default Changelist" comment="added find and update">
+    <list default="true" id="3e0bf8a2-9312-492e-a154-74f985ef7ca6" name="Default Changelist" comment="added course.name and course.author">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602214360256</updated>
       <workItem from="1602214361378" duration="4079000" />
-      <workItem from="1602218625493" duration="2019000" />
+      <workItem from="1602218625493" duration="4167000" />
     </task>
     <task id="LOCAL-00001" summary="added import data and preformed or/and">
       <created>1602215471400</created>
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602220634174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added course.name and course.author">
+      <created>1602220854738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602220854740</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,13 +124,14 @@
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="added regex" />
     <MESSAGE value="added find and update" />
-    <option name="LAST_COMMIT_MESSAGE" value="added find and update" />
+    <MESSAGE value="added course.name and course.author" />
+    <option name="LAST_COMMIT_MESSAGE" value="added course.name and course.author" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602220645684">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602220863240">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602220645684" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602220863240" />
     <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602215419653">
       <screen x="35" y="27" width="1331" height="741" />
     </state>

@@ -27,7 +27,7 @@ async function createCourse()
 {
     const result = await course.save();
     console.log('Course created');
-}
+}/*
 async function updateCourse(id)
 {
 
@@ -44,5 +44,19 @@ async function updateCourse(id)
 
 updateCourse('5f7ff1028abe7c16e32b8b90').then(()=>{
     console.log('course update success');
+});*/
+//update first
+async function updateCourse()
+{
+    const result = await Course.updateMany({ author: 'Mosh' }, {
+        $set: { name: 'Learning Cricket'}
+
+
 });
+    console.log('course update success');
+}
+
+updateCourse().then(() =>{
+    console.log('success');
+} );
 
