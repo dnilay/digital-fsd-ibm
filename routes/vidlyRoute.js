@@ -15,6 +15,11 @@ router.post('/', async (req, res) => {
     let result = await genre.save();
     res.send(result);
 });
+
+router.get('/',async (req, res) => {
+    let result = await Genre.find();
+    res.send(result);
+})
 function validateGenre(genre) {
     const schema = {
         name: Joi.string().min(5).required()

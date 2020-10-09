@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14b1e1c5-8b94-422a-a9ff-92b6843a1e35" name="Default Changelist" comment="post method added">
-      <change afterPath="$PROJECT_DIR$/routes/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="14b1e1c5-8b94-422a-a9ff-92b6843a1e35" name="Default Changelist" comment="added validation Joi">
       <change beforePath="$PROJECT_DIR$/routes/vidlyRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/vidlyRoute.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602240947227</updated>
-      <workItem from="1602240948837" duration="4212000" />
+      <workItem from="1602240948837" duration="4509000" />
     </task>
     <task id="LOCAL-00001" summary="post method added">
       <created>1602243170286</created>
@@ -59,7 +54,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602243170286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added validation Joi">
+      <created>1602245928075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602245928075</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,7 +69,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="post method added" />
-    <option name="LAST_COMMIT_MESSAGE" value="post method added" />
+    <MESSAGE value="added validation Joi" />
+    <option name="LAST_COMMIT_MESSAGE" value="added validation Joi" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1285" height="175" key="GridCell.Tab.0.bottom" timestamp="1602244747464">
@@ -86,10 +89,10 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state width="1285" height="175" key="GridCell.Tab.0.right/35.27.1331.741@35.27.1331.741" timestamp="1602244747464" />
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602243199695">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602245937791">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602243199695" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602245937791" />
     <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602243181898">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
