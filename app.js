@@ -19,7 +19,8 @@ async function getCourses() {
         .find({isPublished: true})
         .or([
             {price: {$gte: 15}},
-            {name: /.*Course.*/i}
+           // {name: /.*Course.*/i},
+            {author:/.M./i}
         ])
         .sort('-price')
         .select('name author price');
