@@ -59,6 +59,7 @@ updateCourse().then(() => {
 });
 */
 //update first
+/*
 async function updateCourse(id)
 {
     let course = await Course.findByIdAndUpdate({_id: id}, {
@@ -71,3 +72,21 @@ updateCourse('5f7ff1028abe7c16e32b8b94').then(() => {
     console.log('success');
 })
 
+*/
+
+async function removeCourse()
+{
+  /*  const course =Course.deleteOne({_id : id},() => {
+        console.log('delete course success',course);
+    });*/
+  /*  const course = await Course.findByIdAndRemove( {_id:id})
+    {
+        console.log(course);
+    }
+*/
+    const result = await Course.deleteMany({author:'Mary'});
+    console.log(result);
+}
+removeCourse().then(() =>{
+    console.log('success');
+} );
