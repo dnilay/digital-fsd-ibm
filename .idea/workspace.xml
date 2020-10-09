@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e0bf8a2-9312-492e-a154-74f985ef7ca6" name="Default Changelist" comment="added course.name and course.author">
+    <list default="true" id="3e0bf8a2-9312-492e-a154-74f985ef7ca6" name="Default Changelist" comment="update first and updatemany">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602214360256</updated>
       <workItem from="1602214361378" duration="4079000" />
-      <workItem from="1602218625493" duration="4167000" />
+      <workItem from="1602218625493" duration="6608000" />
     </task>
     <task id="LOCAL-00001" summary="added import data and preformed or/and">
       <created>1602215471400</created>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602220854740</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update first and updatemany">
+      <created>1602224059880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602224059880</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,13 +132,14 @@
     <MESSAGE value="added regex" />
     <MESSAGE value="added find and update" />
     <MESSAGE value="added course.name and course.author" />
-    <option name="LAST_COMMIT_MESSAGE" value="added course.name and course.author" />
+    <MESSAGE value="update first and updatemany" />
+    <option name="LAST_COMMIT_MESSAGE" value="update first and updatemany" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602220863240">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602224068662">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602220863240" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602224068662" />
     <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602215419653">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
