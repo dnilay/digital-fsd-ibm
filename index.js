@@ -34,7 +34,8 @@ async function updateCourse(id)
     const course = await Course.findById(id);
     console.log(course);
     if (!course) return;
-    course.set({ name: 'Learning React',author: 'Mosh',_v: 2});
+    course.name='Spring', course.author='Jane';
+   // course.set({ name: 'Learning React',author: 'Mosh',_v: 2});
     course.save();
     console.log(course);
 
