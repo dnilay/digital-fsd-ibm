@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14b1e1c5-8b94-422a-a9ff-92b6843a1e35" name="Default Changelist" comment="added validation Joi">
+    <list default="true" id="14b1e1c5-8b94-422a-a9ff-92b6843a1e35" name="Default Changelist" comment="added getAll">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/vidlyRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/vidlyRoute.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,7 +55,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602240947227</updated>
-      <workItem from="1602240948837" duration="4509000" />
+      <workItem from="1602240948837" duration="5071000" />
+      <workItem from="1602396434016" duration="675000" />
+      <workItem from="1602468414952" duration="2673000" />
     </task>
     <task id="LOCAL-00001" summary="post method added">
       <created>1602243170286</created>
@@ -61,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602245928075</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added getAll">
+      <created>1602246184944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602246184944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,32 +89,45 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="post method added" />
     <MESSAGE value="added validation Joi" />
-    <option name="LAST_COMMIT_MESSAGE" value="added validation Joi" />
+    <MESSAGE value="added getAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getAll" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1285" height="175" key="GridCell.Tab.0.bottom" timestamp="1602244747464">
+    <state x="158" y="54" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602246588567">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.bottom/35.27.1331.741@35.27.1331.741" timestamp="1602244747464" />
-    <state width="1285" height="175" key="GridCell.Tab.0.center" timestamp="1602244747464">
+    <state x="158" y="54" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/35.27.1331.741@35.27.1331.741" timestamp="1602246588567" />
+    <state width="1285" height="175" key="GridCell.Tab.0.bottom" timestamp="1602246666472">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.center/35.27.1331.741@35.27.1331.741" timestamp="1602244747464" />
-    <state width="1285" height="175" key="GridCell.Tab.0.left" timestamp="1602244747463">
+    <state width="1285" height="175" key="GridCell.Tab.0.bottom/35.27.1331.741@35.27.1331.741" timestamp="1602246666472" />
+    <state width="1285" height="175" key="GridCell.Tab.0.center" timestamp="1602246666472">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.left/35.27.1331.741@35.27.1331.741" timestamp="1602244747463" />
-    <state width="1285" height="175" key="GridCell.Tab.0.right" timestamp="1602244747464">
+    <state width="1285" height="175" key="GridCell.Tab.0.center/35.27.1331.741@35.27.1331.741" timestamp="1602246666472" />
+    <state width="1285" height="175" key="GridCell.Tab.0.left" timestamp="1602246666472">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.right/35.27.1331.741@35.27.1331.741" timestamp="1602244747464" />
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602245937791">
+    <state width="1285" height="175" key="GridCell.Tab.0.left/35.27.1331.741@35.27.1331.741" timestamp="1602246666472" />
+    <state width="1285" height="175" key="GridCell.Tab.0.right" timestamp="1602246666472">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602245937791" />
+    <state width="1285" height="175" key="GridCell.Tab.0.right/35.27.1331.741@35.27.1331.741" timestamp="1602246666472" />
+    <state x="189" y="31" key="SettingsEditor" timestamp="1602473026861">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1602473026861" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602246191489">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602246191489" />
     <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602243181898">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog/35.27.1331.741@35.27.1331.741" timestamp="1602243181898" />
+    <state x="363" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602474085623">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="363" y="89" width="672" height="678" key="search.everywhere.popup/35.27.1331.741@35.27.1331.741" timestamp="1602474085623" />
   </component>
 </project>
