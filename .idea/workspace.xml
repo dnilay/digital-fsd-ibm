@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="609af584-940c-4201-9e72-1556e2be73c5" name="Default Changelist" comment="added pug template">
-      <change afterPath="$PROJECT_DIR$/public/images/first.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/add-product.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop.pug" afterDir="false" />
+    <list default="true" id="609af584-940c-4201-9e72-1556e2be73c5" name="Default Changelist" comment="converted all html to pug and implemented if,else,each(loop)">
+      <change afterPath="$PROJECT_DIR$/views/layouts/main-layout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subviews/404.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/errorpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/errorpage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-product.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602559494780</updated>
-      <workItem from="1602559495869" duration="7205000" />
+      <workItem from="1602559495869" duration="12639000" />
     </task>
     <task id="LOCAL-00001" summary="added pug template">
       <created>1602562484177</created>
@@ -65,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602562484177</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="converted all html to pug and implemented if,else,each(loop)">
+      <created>1602566999252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602566999252</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,7 +77,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added pug template" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pug template" />
+    <MESSAGE value="converted all html to pug and implemented if,else,each(loop)" />
+    <option name="LAST_COMMIT_MESSAGE" value="converted all html to pug and implemented if,else,each(loop)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="295" y="35" width="790" height="723" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602562271403">
@@ -84,9 +89,9 @@
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1602560338427" />
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602562523454">
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602567018026">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602562523454" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602567018026" />
   </component>
 </project>
