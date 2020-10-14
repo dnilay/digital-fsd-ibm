@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d727a32-549c-46cf-9ede-09a6a9123011" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mvc-starting-code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4d727a32-549c-46cf-9ede-09a6a9123011" name="Default Changelist" comment="controller finished">
+      <change afterPath="$PROJECT_DIR$/models/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/user-controller-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -52,30 +68,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602648791509</updated>
-      <workItem from="1602648792650" duration="4287000" />
+      <workItem from="1602648792650" duration="6878000" />
+      <workItem from="1602666515107" duration="605000" />
     </task>
+    <task id="LOCAL-00001" summary="controller finished">
+      <created>1602656980254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602656980254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="controller finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="controller finished" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1285" height="175" key="GridCell.Tab.0.bottom" timestamp="1602648856064">
+    <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602664332417">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.bottom/35.27.1331.741@35.27.1331.741" timestamp="1602648856064" />
-    <state width="1285" height="175" key="GridCell.Tab.0.center" timestamp="1602648856063">
+    <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl/35.27.1331.741@35.27.1331.741" timestamp="1602664332417" />
+    <state width="1285" height="175" key="GridCell.Tab.0.bottom" timestamp="1602664333529">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.center/35.27.1331.741@35.27.1331.741" timestamp="1602648856063" />
-    <state width="1285" height="175" key="GridCell.Tab.0.left" timestamp="1602648856063">
+    <state width="1285" height="175" key="GridCell.Tab.0.bottom/35.27.1331.741@35.27.1331.741" timestamp="1602664333529" />
+    <state width="1285" height="175" key="GridCell.Tab.0.center" timestamp="1602664333529">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.left/35.27.1331.741@35.27.1331.741" timestamp="1602648856063" />
-    <state width="1285" height="175" key="GridCell.Tab.0.right" timestamp="1602648856063">
+    <state width="1285" height="175" key="GridCell.Tab.0.center/35.27.1331.741@35.27.1331.741" timestamp="1602664333529" />
+    <state width="1285" height="175" key="GridCell.Tab.0.left" timestamp="1602664333528">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.right/35.27.1331.741@35.27.1331.741" timestamp="1602648856063" />
+    <state width="1285" height="175" key="GridCell.Tab.0.left/35.27.1331.741@35.27.1331.741" timestamp="1602664333528" />
+    <state width="1285" height="175" key="GridCell.Tab.0.right" timestamp="1602664333529">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state width="1285" height="175" key="GridCell.Tab.0.right/35.27.1331.741@35.27.1331.741" timestamp="1602664333529" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602657004288">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602657004288" />
     <state x="390" y="106" width="620" height="580" key="find.popup" timestamp="1602655948092">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
