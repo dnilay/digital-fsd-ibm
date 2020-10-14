@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="09475239-da38-481b-aff9-76ca4ec30e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/implementing-ejs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="09475239-da38-481b-aff9-76ca4ec30e2e" name="Default Changelist" comment="added ejs">
+      <change afterPath="$PROJECT_DIR$/views/includes/end.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/head.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/nav.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-product.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,30 +73,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602586826312</updated>
-      <workItem from="1602586827333" duration="2085000" />
+      <workItem from="1602586827333" duration="2728000" />
+      <workItem from="1602644732946" duration="3348000" />
     </task>
+    <task id="LOCAL-00001" summary="added ejs">
+      <created>1602588935403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602588935403</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added ejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ejs" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1285" height="175" key="GridCell.Tab.0.bottom" timestamp="1602587209144">
+    <state width="1285" height="175" key="GridCell.Tab.0.bottom" timestamp="1602591911286">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.bottom/35.27.1331.741@35.27.1331.741" timestamp="1602587209144" />
-    <state width="1285" height="175" key="GridCell.Tab.0.center" timestamp="1602587209143">
+    <state width="1285" height="175" key="GridCell.Tab.0.bottom/35.27.1331.741@35.27.1331.741" timestamp="1602591911286" />
+    <state width="1285" height="175" key="GridCell.Tab.0.center" timestamp="1602591911285">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.center/35.27.1331.741@35.27.1331.741" timestamp="1602587209143" />
-    <state width="1285" height="175" key="GridCell.Tab.0.left" timestamp="1602587209143">
+    <state width="1285" height="175" key="GridCell.Tab.0.center/35.27.1331.741@35.27.1331.741" timestamp="1602591911285" />
+    <state width="1285" height="175" key="GridCell.Tab.0.left" timestamp="1602591911285">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.left/35.27.1331.741@35.27.1331.741" timestamp="1602587209143" />
-    <state width="1285" height="175" key="GridCell.Tab.0.right" timestamp="1602587209144">
+    <state width="1285" height="175" key="GridCell.Tab.0.left/35.27.1331.741@35.27.1331.741" timestamp="1602591911285" />
+    <state width="1285" height="175" key="GridCell.Tab.0.right" timestamp="1602591911285">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1285" height="175" key="GridCell.Tab.0.right/35.27.1331.741@35.27.1331.741" timestamp="1602587209144" />
+    <state width="1285" height="175" key="GridCell.Tab.0.right/35.27.1331.741@35.27.1331.741" timestamp="1602591911285" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602588955624">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1602588955624" />
     <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602588896401">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
