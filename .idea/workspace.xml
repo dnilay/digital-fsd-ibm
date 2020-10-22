@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="424b694e-b633-459c-8adb-08ad8c54e716" name="Default Changelist" comment="" />
+    <list default="true" id="424b694e-b633-459c-8adb-08ad8c54e716" name="Default Changelist" comment="started typescript">
+      <change afterPath="$PROJECT_DIR$/javascripts/Customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescripts/Customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescripts/Customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescripts/CustomerType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescripts/RegularCustomer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescripts/ToDo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescripts/growable-arrays.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescripts/reviews.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescripts/sports.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescripts/variables.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescripts/app.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +45,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jDbljkdfHsyH9H2RfD36l2p9FJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,10 +57,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/typescripts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/typescripts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,8 +76,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603341762651</updated>
-      <workItem from="1603341763760" duration="460000" />
+      <workItem from="1603341763760" duration="3296000" />
+      <workItem from="1603346049911" duration="4571000" />
+      <workItem from="1603351499638" duration="95000" />
     </task>
+    <task id="LOCAL-00001" summary="started typescript">
+      <created>1603342327828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603342327828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -44,7 +95,43 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/typescripts/app.js" />
+        <option value="$PROJECT_DIR$/typescripts/variables.js" />
+        <option value="$PROJECT_DIR$/typescripts/reviews.js" />
+        <option value="$PROJECT_DIR$/typescripts/sports.js" />
+        <option value="$PROJECT_DIR$/typescripts/Customer.js" />
+        <option value="$PROJECT_DIR$/typescripts/CustomerType.js" />
+        <option value="$PROJECT_DIR$/typescripts/RegularCustomer.js" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="started typescript" />
+    <option name="LAST_COMMIT_MESSAGE" value="started typescript" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="189" y="31" key="SettingsEditor" timestamp="1603344049023">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1603344049023" />
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603342358054">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="295" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/35.27.1331.741@35.27.1331.741" timestamp="1603342358054" />
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603342309555">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog/35.27.1331.741@35.27.1331.741" timestamp="1603342309555" />
   </component>
 </project>
