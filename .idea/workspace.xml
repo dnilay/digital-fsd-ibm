@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5433348-3552-4e0e-94ad-d8a5cd09a72b" name="Default Changelist" comment="" />
+    <list default="true" id="e5433348-3552-4e0e-94ad-d8a5cd09a72b" name="Default Changelist" comment="interfaces">
+      <change afterPath="$PROJECT_DIR$/.gotignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jEQCA9WhEho7v5WDHncKw5IAx5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,8 +34,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603366640674</updated>
-      <workItem from="1603366641764" duration="1347000" />
+      <workItem from="1603366641764" duration="1462000" />
     </task>
+    <task id="LOCAL-00001" summary="interfaces">
+      <created>1603368029672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603368029672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -47,22 +61,22 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="interfaces" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="394" y="198" width="603" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603368085590">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="394" y="198" width="603" height="396" key="#com.intellij.fileTypes.FileTypeChooser/35.27.1331.741@35.27.1331.741" timestamp="1603368085590" />
     <state x="508" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1603367088943">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
     <state x="508" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/35.27.1331.741@35.27.1331.741" timestamp="1603367088943" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app.ts</url>
-          <line>6</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603368049744">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="505" y="308" width="381" height="176" key="git4idea.remote.GitConfigureRemotesDialog/35.27.1331.741@35.27.1331.741" timestamp="1603368049744" />
   </component>
 </project>
