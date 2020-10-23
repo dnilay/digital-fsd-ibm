@@ -4,6 +4,6 @@ export class SalesPerson {
               public firstName: string,
               public lastName: string,
               public email: string,
-              public salesVolume: number) {
+              public salesVolume: number, public dateOfReporting: Date) {
   }
 }
