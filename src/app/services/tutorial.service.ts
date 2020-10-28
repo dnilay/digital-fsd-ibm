@@ -11,5 +11,7 @@ export class TutorialService {
   getAll(): Observable<any> {
     return this.http.get(baseUrl);
   }
-
+  create(data): Observable<any> {
+    return this.http.post(baseUrl, data);
+  }
 }
