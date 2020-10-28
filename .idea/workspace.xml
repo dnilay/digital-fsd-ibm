@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bac6d28-d203-4848-b66f-7d0cfbaf61e5" name="Default Changelist" comment="node backend">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="1bac6d28-d203-4848-b66f-7d0cfbaf61e5" name="Default Changelist" comment="node backend-final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603854809830</updated>
-      <workItem from="1603854810871" duration="10473000" />
+      <workItem from="1603854810871" duration="10523000" />
     </task>
     <task id="LOCAL-00001" summary="node backend">
       <created>1603862768342</created>
@@ -46,7 +43,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603862768342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="node backend-final">
+      <created>1603878128841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603878128841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -54,7 +58,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="node backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="node backend" />
+    <MESSAGE value="node backend-final" />
+    <option name="LAST_COMMIT_MESSAGE" value="node backend-final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="486" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603860108366">
@@ -77,10 +82,10 @@
       <screen x="40" y="27" width="1326" height="741" />
     </state>
     <state width="1280" height="130" key="GridCell.Tab.0.right/40.27.1326.741@40.27.1326.741" timestamp="1603856263600" />
-    <state x="298" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603862797786">
+    <state x="298" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603878117271">
       <screen x="40" y="27" width="1326" height="741" />
     </state>
-    <state x="298" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/40.27.1326.741@40.27.1326.741" timestamp="1603862797786" />
+    <state x="298" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/40.27.1326.741@40.27.1326.741" timestamp="1603878117271" />
     <state x="507" y="309" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603862744753">
       <screen x="40" y="27" width="1326" height="741" />
     </state>
