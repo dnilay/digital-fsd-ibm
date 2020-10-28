@@ -8,13 +8,15 @@ import { TotorialsListComponent } from './components/totorials-list/totorials-li
 import { TutorialsListComponent } from './components/tutorials-list/tutorials-list.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddTutorialComponent,
     TotorialsListComponent,
-    TutorialsListComponent
+    TutorialsListComponent,
+    TutorialDetailsComponent
   ],
   imports: [
     BrowserModule,
